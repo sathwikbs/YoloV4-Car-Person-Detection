@@ -17,7 +17,12 @@ pre-trained weights : https://github.com/AlexeyAB/darknet/releases/download/dark
 YOLO stands for You Only Look Once, which is an object detection model used in deep learning use cases.
 There are mainly two main groups of object detection models: Two-Stage Detectors and One-Stage Detectors. 
 YOLO is one of the One-Stage Detectors (You only look once, one-stage detection).
+
+YOLO v4 vs other State-of-the-art:
+![](https://github.com/sathwikbs/YoloV4-Car-Person-Detection/blob/main/Images/yolo_vs_others.png)
+
 Given below is the architecture of the model:
+![](https://github.com/sathwikbs/YoloV4-Car-Person-Detection/blob/main/Images/yolo%20arch.png)
 
 ## Primary Anlaysis
 
