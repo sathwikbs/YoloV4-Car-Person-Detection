@@ -3,9 +3,13 @@
 ## Links to dataset and framework
 
 YOLO v4 : https://github.com/AlexeyAB/darknet
+
 Paper YOLO v4: https://arxiv.org/abs/2004.10934
+
 Manual: https://github.com/AlexeyAB/darknet/wiki
+
 pylabel : https://pypi.org/project/pylabel/
+
 pre-trained weights : https://github.com/AlexeyAB/darknet/releases/download/darknet_yolo_v3_optimal/yolov4.conv.137
 
 ## About the model
@@ -26,9 +30,7 @@ I recommend having batch = 64 and subdivisions = 16 for ultimate results.Since I
 
 Make the rest of the changes to the cfg based on how many classes you are training your detector on.
 
-Note: I set my max_batches = 6000, steps = 4800, 5400, I changed the classes = 2 in the three YOLO layers and filters =  in the three convolutional layers before the YOLO layers.
-
-How to Configure Your Variables:
+I set my max_batches = 6000, steps = 4800, 5400, I changed the classes = 2 in the three YOLO layers and filters =  in the three convolutional layers before the YOLO layers.
 
 width = 416
 
@@ -49,4 +51,10 @@ obj.data contains number of classses,training data path ,test data path and back
 ### train.txt and test.txt
 
 train.txt and test.txt files holds the relative paths to all our training images and test images.
+
+## Inference
+
+## Conculsion
+
+Even though the model has given above average results, there is potential for improving it by training for longer periods (I trained the model for two hours when the ETA was approximately eight hours) and changing batches, subdivisions, or other hyper-parameters in the configuration file.
 
