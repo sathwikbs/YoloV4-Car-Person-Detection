@@ -19,6 +19,7 @@ There are mainly two main groups of object detection models: Two-Stage Detectors
 YOLO is one of the One-Stage Detectors (You only look once, one-stage detection).
 
 YOLO v4 vs other State-of-the-art:
+
 ![](https://github.com/sathwikbs/YoloV4-Car-Person-Detection/blob/main/Images/yolo_vs_others.png)
 
 Given below is the architecture of the model:
@@ -41,7 +42,7 @@ width = 416
 
 height = 416 (these can be any multiple of 32, 416 is standard, you can sometimes improve results by making value larger like 608 but will slow down training)
 
-max_batches = (# of classes) * 2000 (but no less than 6000 so if you are training for 1, 2, or 3 classes it will be 6000, however detector for 5 classes would have max_batches=10000)
+max_batches = (# of classes) * 2000 (but no less than 6000 so if you are training for 1, 2, or 3 classes it will be 6000
 
 steps = (80% of max_batches), (90% of max_batches) (so if your max_batches = 10000, then steps = 8000, 9000)
 
