@@ -12,6 +12,8 @@ pylabel : https://pypi.org/project/pylabel/
 
 pre-trained weights : https://github.com/AlexeyAB/darknet/releases/download/darknet_yolo_v3_optimal/yolov4.conv.137
 
+Dataset : https://drive.google.com/drive/folders/1EVOcALYeKzF1alYlXqZn5BkIeGmicg5Y?usp=sharing
+
 ## About the model
 
 YOLO stands for You Only Look Once, which is an object detection model used in deep learning use cases.
