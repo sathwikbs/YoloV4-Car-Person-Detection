@@ -1,4 +1,4 @@
-# YoloV4-Car-Person-Detection
+# YoloV4-Car-and-Person-Detection
 
 ## Links to dataset and framework
 
