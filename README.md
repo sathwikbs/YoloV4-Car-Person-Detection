@@ -60,6 +60,27 @@ train.txt and test.txt files holds the relative paths to all our training images
 
 ## Inference
 
+detections_count = 15594, unique_truth_count = 1731  
+
+class_id = 0, name = person, ap = 66.02%   	 (TP = 696, FP = 340) 
+
+class_id = 1, name = car, ap = 70.22%   	 (TP = 417, FP = 181) 
+
+for conf_thresh = 0.25, precision = 0.68, recall = 0.64, F1-score = 0.66 
+
+for conf_thresh = 0.25, TP = 1113, FP = 521, FN = 618, average IoU = 49.65 % 
+
+IoU threshold = 50 %, used Area-Under-Curve for each unique Recall 
+ mean average precision (mAP@0.50) = 0.681202, or 68.12 %
+ 
+Total Detection Time: 7 Seconds
+
+![](https://github.com/sathwikbs/YoloV4-Car-Person-Detection/blob/main/Images/chart.png)
+
+Prediction:
+
+![](https://github.com/sathwikbs/YoloV4-Car-Person-Detection/blob/main/Images/prediction.png)
+
 ## Conculsion
 
 Even though the model has given above average results, there is potential for improving it by training for longer periods (I trained the model for two hours when the ETA was approximately eight hours) and changing batches, subdivisions, or other hyper-parameters in the configuration file.
